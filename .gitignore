@@ -1,4 +1,7 @@
-.claude/
+# Ignore local Claude config, but keep project skills so cowork/Claude Code
+# sessions auto-discover them.
+.claude/*
+!.claude/skills/
 teams/
 node_modules/
 __pycache__/
